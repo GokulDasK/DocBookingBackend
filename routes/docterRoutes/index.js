@@ -6,7 +6,7 @@ import { checkToken } from '../../middlewares/checkToken.js';
 
 const router = express.Router();
 
-// doctor sigh up
+// doctor sigh up page
 
 router.post('/signup', async (req, res) => {
   try {
